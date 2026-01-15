@@ -1,9 +1,13 @@
 # COMP 2230-02: Data Structures, Algorithm Analysis, and Program Design
 
 **Term:** Winter 2026
+
 **Instructor:** Shivani Tyagi
+
 **Class Venue:** OM 1350
+
 **Office:** 406B Clock Tower
+
 **Office Hours:** By appointment
 
 ---
