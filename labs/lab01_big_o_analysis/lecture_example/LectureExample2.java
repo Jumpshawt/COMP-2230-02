@@ -1,4 +1,4 @@
-public class Example2 {
+public class LectureExample2 {
     public static void main(String[] args) {
         int n = 10; // Input size, can be changed
 

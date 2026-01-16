@@ -1,6 +1,19 @@
-public class LectureExample {
+import javax.swing.*;
+
+public class LectureExample1 {
     public static void main(String[] args) {
         int n = 10; // Input size, can be changed to test different values
+            SwingUtilities.invokeLater(() -> {
+                        JFrame frame = new JFrame("Swing Demo");
+                        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+                        frame.setSize(300, 200);
+
+                        JButton button = new JButton("Click Me");
+                        button.addActionListener(e -> JOptionPane.showMessageDialog(frame, "Hello from Swing!"));
+
+                        frame.add(button);
+                        frame.setVisible(true);
+                    });
 
         // Initialize total to 0: 1 operation
         int total = 0;
